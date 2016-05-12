@@ -19,7 +19,7 @@ struct CNode {
 	/* Custom data */
 	// ...
 
-	vector<pair<CNode*, unsigned int>> successors;
+	list<pair<CNode*, unsigned int>> successors;
 	CNode() : state(FRESH) { }
 	CNode(int _id) : id(_id), state(FRESH) { }
 };
