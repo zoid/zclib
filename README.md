@@ -27,7 +27,9 @@ Interval Tree is used to store intervals *(implemented as AVL Tree)*. The interv
 - Contained(interval) - Return all intervals that lies in given interval
 
 ####Segment Tree
-Segment Tree is used to store some data on interval *(implemented as perfect binary tree)* and provides query and update operations on given interval both in O(log N) with lazy propagation. 
-*NOTE: Since it's a template class, template type should have implemented + or you have to change the operation in code.* 
+Segment Tree is used to store some data on interval *(implemented as perfect binary tree)* and provides query and update operations on given interval both in O(log N) with lazy propagation:
 - Query(from, to) - Return value for given range *(Lazy propagation)*
 - Update(from, to) - Updates values in given range *(Lazy propagation)*
+
+*NOTE: Since it's a template class, template type should have implemented operator+ (otherwise you have to change the operation in code).* 
+
