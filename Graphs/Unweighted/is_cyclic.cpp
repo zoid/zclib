@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <list>
 
 using namespace std;
 
@@ -15,7 +15,7 @@ struct CNode {
 	/* Custom data */
 	// ...
 
-	vector<CNode*> successors;
+	list<CNode*> successors;
 	CNode() : state(FRESH) { }
 	CNode(int _id) : id(_id), state(FRESH) { }
 };
