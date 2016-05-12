@@ -21,7 +21,13 @@ Most of files are compatible, unless those where it is not possible. Node's stru
 ##Trees
 
 ####Interval Tree
-Interval Tree is used to stored intervals *(implemented as AVL Tree)*. The interval tree provides 3 query operations:
+Interval Tree is used to store intervals *(implemented as AVL Tree)*. The interval tree provides 3 query operations:
 - Overlap(interval) - Return all intervals that overlap given interval
 - Contain(interval) - Return all intervals that contain given interval
 - Contained(interval) - Return all intervals that lies in given interval
+
+####Segment Tree
+Segment Tree is used to store some data on interval *(implemented as perfect binary tree)* and provides query and update operations on given interval both in O(log N) with lazy propagation. 
+*NOTE: Since it's a template class, template type should have implemented + or you have to change the operation in code.* 
+- Query(from, to) - Return value for given range *(Lazy propagation)*
+- Update(from, to) - Updates values in given range *(Lazy propagation)*
