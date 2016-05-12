@@ -3,7 +3,7 @@ Basic algo's &amp; ds's implementations.
 
 
 ##Graph algorithms
-Most of files are compatible, unless those where it is not possible. Node's struct with vector of successor nodes is mostly used as a graph represenatation (unless those, where it is does not make sense - like Floyd Wharshal)
+Most of files are compatible with each other, expect those where it is not possible. Node's struct with vector of successor nodes is mostly used as a graph represenatation (unless those, where it is does not make sense - like Floyd Wharshal)
 
 ####Unweighted graph
 - BFS *(Both)*
