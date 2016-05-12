@@ -1,8 +1,8 @@
 #include <iostream>
-#include <vector>
 #include <queue>
 #include <list>
 #include <unordered_map>
+#include <exception>
 using namespace std;
 
 const int INDEX = 1;			/* INDEX FROM */
@@ -17,7 +17,7 @@ struct CNode {
 	/* Custom data */
 	// ...
 
-	vector<CNode*> successors;
+	list<CNode*> successors;
 	CNode() : state(FRESH) { }
 	CNode(int _id) : id(_id), state(FRESH) { }
 };
