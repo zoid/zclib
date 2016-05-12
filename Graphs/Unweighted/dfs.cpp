@@ -5,9 +5,9 @@ using namespace std;
 
 const int INDEX = 1;			/* INDEX FROM */
 const int FRESH = 0;			/* FRESH NODE STATE */
-const int OPEN = 1;				/* OPEN NODE STATE */
+const int OPEN = 1;			/* OPEN NODE STATE */
 const int CLOSED = 2;			/* CLOSED NODE STATE */
-const bool UNDIRECTED = false;	/* DIRECTED / UNDIRECTED GRAPH */
+const bool UNDIRECTED = false;		/* DIRECTED / UNDIRECTED GRAPH */
 
 struct CNode {
 	int id, state, step, component;
