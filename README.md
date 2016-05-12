@@ -16,3 +16,12 @@ Most of files are compatible, unless those where it is not possible. Node's stru
 - Shortest Paths using Dijsktra *(Both - unsigned edge's weights)*
 - Shortest Paths using Bellman Ford *(Both - signed edge's weights)*
 - Shortest Paths using Floyd-Warshall *(Both - signed edge's weights)*
+
+
+##Trees
+
+####Interval Tree
+Interval Tree is used to stored intervals *(implemented as AVL Tree)*. The interval tree provides 3 query operations:
+- Overlap(interval) - Return all intervals that overlap given interval
+- Contain(interval) - Return all intervals that contain given interval
+- Contained(interval) - Return all intervals that lies in given interval
