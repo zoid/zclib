@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <list>
 #include <unordered_map>
 #include <unordered_set>
 #include <stack>
@@ -21,7 +22,7 @@ struct CNode {
 	/* Custom data */
 	// ...
 
-	vector<CNode*> successors;
+	list<CNode*> successors;
 	CNode() : state(FRESH) { }
 	CNode(int _id) : id(_id), state(FRESH) { }
 };
