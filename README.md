@@ -16,7 +16,7 @@ Most of the files are compatible with each other, except those that simply can't
 - **Shortest Paths** using Dijsktra *(Both - unsigned edge's weights)* - O(E*logV)
 - **Shortest Paths** using Bellman Ford *(Both - signed edge's weights)* - O(V*E)
 - **Shortest Paths** using Floyd-Warshall *(Both - signed edge's weights)* - O(V^3)
-- **Minimal Spanning Tree** using Kurskal *(Undirected - signed edge's weights)* - O(E*logE) *(if edges are pre-sorted or used linear sort logE changes to α (inverse Ackermann function)
+- **Minimal Spanning Tree** using Kurskal *(Undirected - signed edge's weights)* - O(E*logE) *(if edges are pre-sorted or used linear sort logE changes to α (inverse Ackermann function)*
 
 
 ##Trees
