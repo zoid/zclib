@@ -6,16 +6,17 @@ Basic algo's &amp; ds's implementations.
 Most of the files are compatible with each other, except those that simply can't be used together. Array of nodes with list of successors (pairs for weighted graphs) is mostly used as a graph represenatation (except those, where it does not make sense - e.g. Floyd Wharshal).
 
 ####Unweighted graph
-- BFS *(Both)*
-- DFS *(Both)*
-- Shortest Path using BFS *(Both)*
-- Find if graph is cyclic using DFS *(Both)*
-- Find strongly connected components using Tarjan's alg *(Directed only)*
+- **BFS** *(Both)* - O(V+E)
+- **DFS** *(Both)* - O(V+E)
+- **Shortest Path** using BFS *(Both)* - O(V+E)
+- **Find if graph is cyclic** using DFS *(Both)* - O(V+E)
+- **Find strongly connected components** using Tarjan's alg *(Directed only)* - O(V+E)
 
 ####Weighted graph
-- Shortest Paths using Dijsktra *(Both - unsigned edge's weights)*
-- Shortest Paths using Bellman Ford *(Both - signed edge's weights)*
-- Shortest Paths using Floyd-Warshall *(Both - signed edge's weights)*
+- **Shortest Paths** using Dijsktra *(Both - unsigned edge's weights)* - O(E*logV)
+- **Shortest Paths** using Bellman Ford *(Both - signed edge's weights)* - O(V*E)
+- **Shortest Paths** using Floyd-Warshall *(Both - signed edge's weights)* - O(V^3)
+- **Minimal Spanning Tree** using Kurskal *(Undirected - signed edge's weights)* - O(E*logE) *(if edges are pre-sorted or used linear sort logE changes to α (inverse Ackermann function)
 
 
 ##Trees
