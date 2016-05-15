@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-const int INDEX = 1;			/* INDEX FROM */
+const int INDEX = 1;		/* INDEX FROM */
 const bool UNDIRECTED = true;	/* DIRECTED / UNDIRECTED GRAPH */
 
 class Union_Find {
